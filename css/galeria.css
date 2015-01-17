@@ -1,0 +1,284 @@
+/* CSS Document */
+body {
+	margin: 0 auto;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:18px;
+}
+
+
+
+.clearFloats {
+	clear:both;
+}
+
+
+#headerBackground {
+	width:100%;
+	height:430px;
+	background:url(../jpg/background_header/background_pic.jpg) repeat-x fixed;
+}
+
+#baraMeniu {
+	width:100%;
+	height:55px;
+	margin-top:60px;
+	position:absolute;
+	background:url(../jpg/background_meniu/background_meniu_pic.jpg) repeat-x;
+	
+}
+
+
+#containerLogoMeniu {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(../jpg/background_meniu/background_meniu_pic.jpg) repeat-x;
+	
+	
+}
+
+	#pozaLogo {
+		width:300px;
+		position:absolute;
+		top:-30px;
+	}
+	
+#meniu {
+	width:500px;
+}
+
+	.meniuTop {
+		display:inline;
+		list-style:none;
+		position:absolute;
+		top:12px !important;
+		top:17px;
+		margin-left:320px !important;
+		margin-left:350px;
+		
+	}
+	
+		.meniuTop li {
+			display:inline;
+		}
+		
+	.linkMeniu {
+		color:#fff;
+		font-weight:bold;
+		font-family:"Times New Roman", Times, serif;
+		font-size:18px;
+		font-style:italic;
+		text-decoration:none;	
+	}
+	
+	.linkMeniu:hover {
+		text-decoration: underline;
+	}	
+
+
+
+
+#containerSloganPoza {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:100px;
+	
+}
+
+
+#backgroundLinie {
+	width:100%;
+	height:4px;
+	position:absolute;
+	top:430px;
+	background:url(../jpg/background_linie_neagra/linie_neagra.jpg) repeat-x;
+}
+
+
+
+#mainBox {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px !important;
+	margin-top:30px;
+
+}
+
+	#leftColumn  {
+		width:270px;
+		height:100%;
+		margin-right:10px;
+		float:left;
+		/*border-right:1px solid #CCCCCC;*/
+		margin-bottom:15px;
+	}
+	
+	#middleColumn {
+		width:270px;
+		height:100%;
+		
+		float:left;
+		margin-bottom:15px;
+	}
+	
+	#middleColumnLarge {
+		width:560px;
+		height:100%;
+		float:left;
+		margin-bottom:15px;
+	}
+	
+		.containerTextLeftColumn {
+			width:250px;
+			border-bottom: 1px solid #CCCCCC;
+			padding-bottom:15px !important;
+			padding-bottom:0;
+			margin-bottom:15px;
+		}
+		
+		.containerTextLeftColumnLarge {
+			width:540px;
+			border-bottom: 1px solid #CCCCCC;
+			padding-bottom:15px !important;
+			padding-bottom:0;
+			margin-bottom:15px;
+		}
+		
+		.containerPoza {
+			width:260px;
+			margin-top:10px;
+			border:1px solid #999999;
+			margin-bottom:20px;
+		}
+		
+			.containerPoza img {
+				padding:5px 5px;
+			}
+			
+		.redLinks {
+			color:#990000;
+			font-weight:bold;
+			padding-left:60px;
+			
+		}
+		
+		.redLinksRightColumn {
+			padding-top:10px;
+			color:#990000;
+			font-weight:bold;
+		}
+		
+		.redLinksLarge {
+			color:#990000;
+			font-weight:bold;
+		}
+	
+	
+	
+	#rightColumn {
+		width:230px;
+		float:left;
+		/*border-left:1px solid #CCCCCC;*/
+		padding-left:10px;
+		margin-bottom:50px;
+	}
+	
+	
+#footer {
+	width:100%;
+	height:370px;
+	background-color:#990000;
+	
+}
+
+	#lineFooter {
+		width:100%;
+		height:4px;
+		background:url(../jpg/background_linie_neagra/linie_neagra.jpg) repeat-x;
+	}
+	
+	
+
+
+.containerTextRightColumn {
+	width:230px;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom:15px !important;
+	padding-bottom:0;
+	margin-bottom:5px;
+}
+
+.logoFirma {
+	width:60px;
+	height:60px;
+	border:1px solid #999999;
+	margin-right:5px;
+	float:left;
+	margin-bottom:10px;
+}
+
+	.logoFirma img {
+		padding:2px 2px;
+	}
+	
+.logoFirmaMare {
+	width:230px;
+	height:135px;
+	border:1px solid #999999;
+}
+
+	.logoFirmaMare img {
+		padding:2px 2px;
+	}
+	
+.blackLI {
+	color:#000000;
+}
+
+
+#containerHeadereFooter {
+	width:800px;
+	margin-top:10px !important;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.headerFooter {
+		width:270px;
+		float:left;
+		margin-right:10px;
+	}
+	
+	.headerFooterRight {
+		width:230px;
+		float:left;
+	}	
+	
+#copyRightInfo {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	margin-bottom:15px;
+	text-align:center;
+}
+
+
+.containerPozaGalerieFoto {
+	width:130px;
+	height:130px;
+	border: 1px solid #999999;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px !important;
+	margin-bottom:-14px;
+}
+
+	.containerPozaGalerieFoto img {
+		padding:5px;
+	}
